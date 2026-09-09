@@ -19,7 +19,7 @@ function MessageBox({role,content,images}) {
     await navigator.clipboard.writeText(code)
     setCopyCode(code)
     setTimeout(()=>{
-      setCopyCode=("")
+      setCopyCode("")
     },2000)
   }
 
