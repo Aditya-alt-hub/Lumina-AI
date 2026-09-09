@@ -66,7 +66,7 @@ function Artifact() {
     await navigator.clipboard.writeText(file?.content || "")
     setCopied(true)
     setTimeout(()=>{
-      setCopied=false
+      setCopied(false)
     },2000)
   }
 
