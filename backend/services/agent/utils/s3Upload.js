@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import os from "os";
 import path from "path";
 
-const TEMP_FILE_TTL = 30 * 1000; // 10 minutes
+const TEMP_FILE_TTL = 10 * 60 * 1000; // 10 minutes
 
 const TEMP_FILE_PREFIXES = [
     "pdf-",
