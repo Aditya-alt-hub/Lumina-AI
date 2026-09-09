@@ -40,6 +40,12 @@ app.get("/",(req,res)=>
     return res.status(200).json({message:"Hello from gateway"});
 })
 
+app.get("/health", (req, res) => {
+    res.status(200).json({
+        status: "ok"
+    });
+});
+
 app.listen(port,"0.0.0.0",()=>
 {
     console.log(`gateway started ${port}`);

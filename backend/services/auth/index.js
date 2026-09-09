@@ -18,6 +18,12 @@ app.get("/",(req,res)=>
     return res.status(200).json({message:"Hello from auth"});
 })
 
+app.get("/health", (req, res) => {
+    res.status(200).json({
+        status: "ok"
+    });
+});
+
 app.listen(port,()=>
 {
     console.log(`auth started ${port}`);
