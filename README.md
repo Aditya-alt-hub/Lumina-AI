@@ -836,7 +836,3 @@ https://github.com/Aditya-alt-hub/Lumina-AI
 
 GitHub:  
 https://github.com/Aditya-alt-hub
-
-
-
-If you find this project useful or interesting, consider giving the repository a ⭐.
